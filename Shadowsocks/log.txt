@@ -1,0 +1,305 @@
+Xshell 5 (Build 1339)
+Copyright (c) 2002-2017 NetSarang Computer, Inc. All rights reserved.
+
+Type `help' to learn how to use Xshell prompt.
+[c:\~]$ 
+
+Connecting to 104.243.31.74:29980...
+Could not connect to '104.243.31.74' (port 29980): Connection failed.
+
+Type `help' to learn how to use Xshell prompt.
+[c:\~]$ 
+
+Connecting to 104.243.31.74:29980...
+Connection established.
+To escape to local shell, press 'Ctrl+Alt+]'.
+
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+root@debian:~# passwd 
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+root@debian:~# wget update
+--2018-12-13 10:52:10--  http://update/
+Resolving update (update)... failed: Name or service not known.
+wget: unable to resolve host address ¡®update¡¯
+root@debian:~# apt-get update
+Get:1 http://security.debian.org jessie/updates InRelease [44.9 kB]                                 
+Get:2 http://ftp.debian.org jessie-updates InRelease [145 kB]                                       
+Ign http://httpredir.debian.org jessie InRelease          
+Get:3 http://security.debian.org jessie/updates/main Sources [285 kB]
+Get:4 http://httpredir.debian.org jessie Release.gpg [2,420 B]                                      
+Get:5 http://security.debian.org jessie/updates/main i386 Packages [629 kB]                         
+Get:6 http://security.debian.org jessie/updates/main Translation-en [315 kB]                        
+Get:7 http://httpredir.debian.org jessie Release [148 kB]                                           
+Get:8 http://ftp.debian.org jessie-updates/main Sources [17.2 kB]                                
+Get:9 http://httpredir.debian.org jessie/main Sources [7,063 kB]                                    
+Get:10 http://ftp.debian.org jessie-updates/main i386 Packages/DiffIndex [11.8 kB]   
+Get:11 http://ftp.debian.org jessie-updates/main Translation-en/DiffIndex [3,688 B]                 
+Get:12 http://ftp.debian.org jessie-updates/main i386 2017-04-15-2027.16.pdiff [527 B]
+Get:13 http://httpredir.debian.org jessie/main i386 Packages [6,821 kB]
+Get:14 http://ftp.debian.org jessie-updates/main i386 2017-06-18-1416.03.pdiff [473 B]
+Get:15 http://ftp.debian.org jessie-updates/main i386 2017-09-09-2018.11.pdiff [5,529 B]
+Get:16 http://ftp.debian.org jessie-updates/main i386 2017-10-26-2029.42.pdiff [523 B]      
+Get:17 http://httpredir.debian.org jessie/main Translation-en [4,581 kB]
+Get:18 http://ftp.debian.org jessie-updates/main i386 2017-12-16-1420.43.pdiff [2,108 B]
+Get:19 http://ftp.debian.org jessie-updates/main i386 2018-01-29-2029.34.pdiff [1,848 B]
+Get:20 http://ftp.debian.org jessie-updates/main i386 2018-02-11-2045.46.pdiff [527 B]
+Get:21 http://ftp.debian.org jessie-updates/main i386 2018-03-31-1421.39.pdiff [521 B]
+Get:22 http://ftp.debian.org jessie-updates/main i386 2018-05-05-2031.58.pdiff [499 B]
+Get:23 http://ftp.debian.org jessie-updates/main i386 2018-05-05-2031.58.pdiff [499 B]
+Get:24 http://ftp.debian.org jessie-updates/main 2017-06-18-1416.03.pdiff [196 B]                 
+Get:25 http://ftp.debian.org jessie-updates/main 2017-09-09-2018.11.pdiff [2,715 B]
+Get:26 http://ftp.debian.org jessie-updates/main 2017-09-09-2018.11.pdiff [2,715 B]          
+Fetched 20.1 MB in 6s (3,011 kB/s)                                                                  
+Reading package lists... Done
+root@debian:~# wget --no-check-certificate -qO 'BBR.sh' 'https://moeclub.org/attachment/LinuxShell/BBR.sh' && chmod a+x BBR.sh && bash BBR.sh -f
+Download New Kernel
+	linux-image-4.12.9-041209-generic_4.12.9-041209.201708242344_i386.deb
+Install New Kernel
+	linux-image-4.12.9-041209-generic_4.12.9-041209.201708242344_i386.deb
+Uninstall Old Kernel
+	linux-image-3.16.0-4-686-pae
+Uninstall Old Kernel
+	linux-image-686-pae
+pre-Loading TCP BBR ...
+Finish! 
+It will reboot now...
+
+Socket error Event: 32 Error: 10053.
+Connection closing...Socket close.
+
+Connection closed by foreign host.
+
+Disconnected from remote host(New Session) at 23:56:41.
+
+Type `help' to learn how to use Xshell prompt.
+[c:\~]$ 
+
+Connecting to 104.243.31.74:29980...
+Connection established.
+To escape to local shell, press 'Ctrl+Alt+]'.
+
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+root@debian:~# wget --no-check-certificate -qO 'BBR_POWERED.sh' 'https://moeclub.org/attachment/LinuxShell/BBR_POWERED.sh' && chmod a+x BBR_POWERED.sh && bash BBR_POWERED.sh
+Install make...
+Install gcc...
+Download Kernel Headers for All
+	linux-headers-4.12.9-041209_4.12.9-041209.201708242344_all.deb
+Install Kernel Headers for All
+	linux-headers-4.12.9-041209_4.12.9-041209.201708242344_all.deb
+Download Kernel Headers
+	linux-headers-4.12.9-041209-generic_4.12.9-041209.201708242344_i386.deb
+Install Kernel Headers
+	linux-headers-4.12.9-041209-generic_4.12.9-041209.201708242344_i386.deb
+Download BBR POWERED Source code
+Loading TCP BBR POWERED...
+Finish! 
+root@debian:~# lsmod |grep 'bbr_powered'
+tcp_bbr_powered        20480  0 
+root@debian:~# wget --no-check-certificate -O shadowsocks-go.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-go.sh
+--2018-12-13 11:09:30--  https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-go.sh
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.196.133
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.196.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 12977 (13K) [text/plain]
+Saving to: ¡®shadowsocks-go.sh¡¯
+
+shadowsocks-go.sh         100%[====================================>]  12.67K  --.-KB/s   in 0s     
+
+2018-12-13 11:09:30 (26.3 MB/s) - ¡®shadowsocks-go.sh¡¯ saved [12977/12977]
+
+root@debian:~# chmod +x shadowsocks-go.sh
+root@debian:~# ./shadowsocks-go.sh 2>&1 | tee shadowsocks-go.log
+
+#############################################################
+# One click Install Shadowsocks-go server                   #
+# Intro: https://teddysun.com/392.html                      #
+# Author: Teddysun <i@teddysun.com>                         #
+# Github: https://github.com/shadowsocks/shadowsocks-go     #
+#############################################################
+
+Please enter password for shadowsocks-go:
+(Default password: teddysun.com):2018@ktmvp
+
+---------------------------
+password = 2018@ktmvp
+---------------------------
+
+Please enter a port for shadowsocks-go [1-65535]
+(Default port: 11528):1008
+
+---------------------------
+port = 1008
+---------------------------
+
+Please select stream cipher for shadowsocks-go:
+1) aes-256-cfb
+2) aes-192-cfb
+3) aes-128-cfb
+4) aes-256-ctr
+5) aes-192-ctr
+6) aes-128-ctr
+7) chacha20-ietf
+8) chacha20
+9) salsa20
+10) rc4-md5
+Which cipher you'd select(Default: aes-256-cfb):                 
+
+---------------------------
+cipher = aes-256-cfb
+---------------------------
+
+
+Press any key to start...or Press Ctrl+C to cancel
+Hit http://security.debian.org jessie/updates InRelease
+Hit http://security.debian.org jessie/updates/main Sources
+Hit http://ftp.debian.org jessie-updates InRelease
+Hit http://security.debian.org jessie/updates/main i386 Packages
+Ign http://httpredir.debian.org jessie InRelease
+Hit http://security.debian.org jessie/updates/main Translation-en
+Hit http://httpredir.debian.org jessie Release.gpg
+Hit http://ftp.debian.org jessie-updates/main Sources
+Hit http://httpredir.debian.org jessie Release
+Get:1 http://ftp.debian.org jessie-updates/main i386 Packages/DiffIndex [11.8 kB]
+Hit http://httpredir.debian.org jessie/main Sources
+Get:2 http://ftp.debian.org jessie-updates/main Translation-en/DiffIndex [3,688 B]
+Hit http://httpredir.debian.org jessie/main i386 Packages
+Hit http://httpredir.debian.org jessie/main Translation-en
+Fetched 15.5 kB in 5s (2,987 B/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+gzip is already the newest version.
+The following extra packages will be installed:
+  libcurl3 libnspr4
+Suggested packages:
+  zip
+The following NEW packages will be installed:
+  curl libcurl3 libnspr4 libnss3 unzip
+The following packages will be upgraded:
+  wget
+1 upgraded, 5 newly installed, 0 to remove and 121 not upgraded.
+Need to get 2,491 kB of archives.
+After this operation, 5,567 kB of additional disk space will be used.
+Get:1 http://security.debian.org/ jessie/updates/main libcurl3 i386 7.38.0-4+deb8u13 [280 kB]
+Get:2 http://security.debian.org/ jessie/updates/main curl i386 7.38.0-4+deb8u13 [204 kB]
+Get:3 http://httpredir.debian.org/debian/ jessie/main libnspr4 i386 2:4.12-1+debu8u1 [126 kB]
+Get:4 http://httpredir.debian.org/debian/ jessie/main libnss3 i386 2:3.26-1+debu8u3 [1,217 kB]
+Get:5 http://httpredir.debian.org/debian/ jessie/main wget i386 1.16-1+deb8u5 [504 kB]
+Get:6 http://httpredir.debian.org/debian/ jessie/main unzip i386 6.0-16+deb8u3 [159 kB]
+Reading changelogs...
+Fetched 2,491 kB in 0s (2,765 kB/s)
+                                   Selecting previously unselected package libcurl3:i386.
+(Reading database ... 67627 files and directories currently installed.)
+Preparing to unpack .../libcurl3_7.38.0-4+deb8u13_i386.deb ...
+Unpacking libcurl3:i386 (7.38.0-4+deb8u13) ...
+Selecting previously unselected package libnspr4:i386.
+Preparing to unpack .../libnspr4_2%3a4.12-1+debu8u1_i386.deb ...
+Unpacking libnspr4:i386 (2:4.12-1+debu8u1) ...
+Selecting previously unselected package libnss3:i386.
+Preparing to unpack .../libnss3_2%3a3.26-1+debu8u3_i386.deb ...
+Unpacking libnss3:i386 (2:3.26-1+debu8u3) ...
+Preparing to unpack .../wget_1.16-1+deb8u5_i386.deb ...
+Unpacking wget (1.16-1+deb8u5) over (1.16-1+deb8u1) ...
+Selecting previously unselected package curl.
+Preparing to unpack .../curl_7.38.0-4+deb8u13_i386.deb ...
+Unpacking curl (7.38.0-4+deb8u13) ...
+Selecting previously unselected package unzip.
+Preparing to unpack .../unzip_6.0-16+deb8u3_i386.deb ...
+Unpacking unzip (6.0-16+deb8u3) ...
+Processing triggers for man-db (2.7.0.2-5) ...
+Processing triggers for install-info (5.2.0.dfsg.1-6) ...
+Processing triggers for mime-support (3.58) ...
+Setting up libcurl3:i386 (7.38.0-4+deb8u13) ...
+Setting up libnspr4:i386 (2:4.12-1+debu8u1) ...
+Setting up libnss3:i386 (2:3.26-1+debu8u3) ...
+Setting up wget (1.16-1+deb8u5) ...
+Setting up curl (7.38.0-4+deb8u13) ...
+Setting up unzip (6.0-16+deb8u3) ...
+Processing triggers for libc-bin (2.19-18+deb8u7) ...
+
+--2018-12-13 11:17:08--  https://dl.lamp.sh/shadowsocks/shadowsocks-server-linux32-1.2.2.gz
+Resolving dl.lamp.sh (dl.lamp.sh)... 107.173.13.215, 168.235.94.152
+Connecting to dl.lamp.sh (dl.lamp.sh)|107.173.13.215|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1369393 (1.3M) [application/x-gzip]
+Saving to: ¡®shadowsocks-server-linux32-1.2.2.gz¡¯
+
+     0K .......... .......... .......... .......... ..........  3% 9.46M 0s
+    50K .......... .......... .......... .......... ..........  7% 13.5M 0s
+   100K .......... .......... .......... .......... .......... 11% 15.9M 0s
+   150K .......... .......... .......... .......... .......... 14% 12.1M 0s
+   200K .......... .......... .......... .......... .......... 18% 12.3M 0s
+   250K .......... .......... .......... .......... .......... 22% 15.7M 0s
+   300K .......... .......... .......... .......... .......... 26% 16.1M 0s
+   350K .......... .......... .......... .......... .......... 29% 14.8M 0s
+   400K .......... .......... .......... .......... .......... 33% 11.4M 0s
+   450K .......... .......... .......... .......... .......... 37% 16.7M 0s
+   500K .......... .......... .......... .......... .......... 41% 17.4M 0s
+   550K .......... .......... .......... .......... .......... 44% 11.0M 0s
+   600K .......... .......... .......... .......... .......... 48% 11.7M 0s
+   650K .......... .......... .......... .......... .......... 52% 17.3M 0s
+   700K .......... .......... .......... .......... .......... 56% 15.9M 0s
+   750K .......... .......... .......... .......... .......... 59% 17.8M 0s
+   800K .......... .......... .......... .......... .......... 63% 13.9M 0s
+   850K .......... .......... .......... .......... .......... 67% 16.3M 0s
+   900K .......... .......... .......... .......... .......... 71% 15.8M 0s
+   950K .......... .......... .......... .......... .......... 74% 17.3M 0s
+  1000K .......... .......... .......... .......... .......... 78% 15.4M 0s
+  1050K .......... .......... .......... .......... .......... 82% 16.1M 0s
+  1100K .......... .......... .......... .......... .......... 85% 18.1M 0s
+  1150K .......... .......... .......... .......... .......... 89% 17.8M 0s
+  1200K .......... .......... .......... .......... .......... 93% 15.6M 0s
+  1250K .......... .......... .......... .......... .......... 97% 17.4M 0s
+  1300K .......... .......... .......... .......              100% 14.9M=0.09s
+
+2018-12-13 11:17:08 (14.7 MB/s) - ¡®shadowsocks-server-linux32-1.2.2.gz¡¯ saved [1369393/1369393]
+
+--2018-12-13 11:17:08--  https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-go-debian
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.196.133
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.196.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2187 (2.1K) [text/plain]
+Saving to: ¡®/etc/init.d/shadowsocks¡¯
+
+     0K ..                                                    100% 8.08M=0s
+
+2018-12-13 11:17:08 (8.08 MB/s) - ¡®/etc/init.d/shadowsocks¡¯ saved [2187/2187]
+
+Shadowsocks-go server install success!
+Starting Shadowsocks-go success
+
+Congratulations, Shadowsocks-go server install completed!
+Your Server IP        :  104.243.31.74 
+Your Server Port      :  1008 
+Your Password         :  2018@ktmvp 
+Your Encryption Method:  aes-256-cfb 
+
+Welcome to visit:https://teddysun.com/392.html
+Enjoy it!
+
+
+Socket error Event: 32 Error: 10053.
+Connection closing...Socket close.
+
+Connection closed by foreign host.
+
+Disconnected from remote host(New Session) at 00:21:10.
+
+Type `help' to learn how to use Xshell prompt.
+[c:\~]$ 
+[c:\~]$ 
