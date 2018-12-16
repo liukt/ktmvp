@@ -15,6 +15,7 @@
 ![Properties](xshell-Properties.png)
 
 Host: [IP地址 or 域名(域名还是会解析成IP地址)]
+
 Prot Number: 远程登陆端口号
 - 更改密码
 - root@debian:~# passwd
