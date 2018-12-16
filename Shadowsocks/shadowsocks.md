@@ -11,7 +11,10 @@
 点击Reload后
 弹出的页面会显示 **远程登陆端口**和**root用户密码**并且**发送到指定邮箱**
 
-通过xshell远程登陆 my VPS
+### 通过xshell远程登陆 my VPS
+![Properties](xshell-Properties.png)
 
+Host: [IP地址 or 域名(域名还是会解析成IP地址)]
+Prot Number: 远程登陆端口号
 - 更改密码
 - root@debian:~# passwd
