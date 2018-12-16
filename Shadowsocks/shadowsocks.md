@@ -38,10 +38,22 @@ root@debian:~# passwd
 ```
 root@debian:~# apt-get update
 ```
-- update更新
+- update  Kernel and pre-Loading TCP BBR
+- 更新内核并预加载TCP BBR算法模块,完成后重启。
 
 
 ```
-root@debian:~# apt-get update
+root@debian:~# wget --no-check-certificate -qO 'BBR.sh' 'https://moeclub.org/attachment/LinuxShell/BBR.sh' && chmod a+x BBR.sh && bash BBR.sh -f
+Download New Kernel
+	linux-image-4.12.9-041209-generic_4.12.9-041209.201708242344_i386.deb
+Install New Kernel
+	linux-image-4.12.9-041209-generic_4.12.9-041209.201708242344_i386.deb
+Uninstall Old Kernel
+	linux-image-3.16.0-4-686-pae
+Uninstall Old Kernel
+	linux-image-686-pae
+pre-Loading TCP BBR ...
+Finish! 
+It will reboot now...
 ```
-
+###### reboot重启后连接会断开，需要重新连接
