@@ -32,4 +32,16 @@ Prot Number: 远程登陆端口号
 ```
 root@debian:~# passwd
 ```
-- root@debian:~# passwd
+- update更新
+
+
+```
+root@debian:~# apt-get update
+```
+- update更新
+
+
+```
+root@debian:~# apt-get update
+```
+
