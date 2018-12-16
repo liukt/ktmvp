@@ -24,8 +24,9 @@ Prot Number: 远程登陆端口号
 ![user name](xshell-root.png)
 ![PassWd](xshell-Authentication.png)
 
-#### 登陆成功
+### 登陆成功
 ![Debian](xshell-debian.png)
 
+---
 - 更改密码
 - root@debian:~# passwd
