@@ -29,4 +29,7 @@ Prot Number: 远程登陆端口号
 
 ---
 - 更改密码
+```
+root@debian:~# passwd
+```
 - root@debian:~# passwd
