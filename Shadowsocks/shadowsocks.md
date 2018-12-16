@@ -17,5 +17,13 @@
 Host: [IP地址 or 域名(域名还是会解析成IP地址)]
 
 Prot Number: 远程登陆端口号
+
+##### 点击 OK 远程连接到服务器的指定端口后
+输入用户名和密码登陆(也就是邮箱收到的user name :root 及root的密码 )
+
+![user name](xshell-root.png)
+![PassWd](xshell-Authentication.png)
+
+
 - 更改密码
 - root@debian:~# passwd
