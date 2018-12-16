@@ -7,8 +7,8 @@
 
 ### Install new OS
 ![install](pic01.png)
-图片1
 
+点击Reload后
 弹出的页面会显示 **远程登陆端口**和**root用户密码**并且**发送到指定邮箱**
 
 通过xshell远程登陆 my VPS
