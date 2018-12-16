@@ -115,6 +115,10 @@ root@debian:~# chmod +x shadowsocks-go.sh
 root@debian:~# ./shadowsocks-go.sh 2>&1 | tee shadowsocks-go.log
 ```
 
+### - [****shadowsocks-win: GitHub****](https://github.com/shadowsocks/shadowsocks-windows/releases)
+### - [****Shadowsocks - Clients****](https://shadowsocks.org/en/download/clients.html)
+
+
 ### Client配置
 ![客户端配置](客户端配置.png)
 
