@@ -115,5 +115,13 @@ root@debian:~# chmod +x shadowsocks-go.sh
 root@debian:~# ./shadowsocks-go.sh 2>&1 | tee shadowsocks-go.log
 ```
 
+### Client配置
+![客户端配置](客户端配置.png)
+
+
+
+### - [****TCP/UDP端口列表****](https://zh.wikipedia.org/wiki/TCP/UDP%E7%AB%AF%E5%8F%A3%E5%88%97%E8%A1%A8)
+![常见端口列表](常见端口列表.png)
+
 ### - [****Shadowsocks Windows 使用说明****](https://github.com/shadowsocks/shadowsocks-windows/wiki/Shadowsocks-Windows-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
 
