@@ -37,9 +37,10 @@ root@debian:~# passwd
 
 ```
 root@debian:~# apt-get update
+
 ```
 - update  Kernel and pre-Loading TCP BBR
-- 更新内核并预加载TCP BBR算法模块,完成后重启。
+- 安装并开启BBR (更新内核并预加载TCP BBR算法模块,完成后重启。)
 
 
 ```
@@ -57,3 +58,59 @@ Finish!
 It will reboot now...
 ```
 ###### reboot重启后连接会断开，需要重新连接
+
+
+
+- 魔改BBR
+
+
+```
+root@debian:~# wget --no-check-certificate -qO 'BBR_POWERED.sh' 'https://moeclub.org/attachment/LinuxShell/BBR_POWERED.sh' && chmod a+x BBR_POWERED.sh && bash BBR_POWERED.sh
+Install make...
+Install gcc...
+Download Kernel Headers for All
+	linux-headers-4.12.9-041209_4.12.9-041209.201708242344_all.deb
+Install Kernel Headers for All
+	linux-headers-4.12.9-041209_4.12.9-041209.201708242344_all.deb
+Download Kernel Headers
+	linux-headers-4.12.9-041209-generic_4.12.9-041209.201708242344_i386.deb
+Install Kernel Headers
+	linux-headers-4.12.9-041209-generic_4.12.9-041209.201708242344_i386.deb
+Download BBR POWERED Source code
+Loading TCP BBR POWERED...
+Finish! 
+root@debian:~# lsmod |grep 'bbr_powered'
+tcp_bbr_powered        20480  0 
+root@debian:~# wget --no-check-certificate -O shadowsocks-go.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-go.sh
+--2018-12-13 11:09:30--  https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-go.sh
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.196.133
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.196.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 12977 (13K) [text/plain]
+Saving to: ‘shadowsocks-go.sh’
+
+shadowsocks-go.sh         100%[====================================>]  12.67K  --.-KB/s   in 0s     
+
+2018-12-13 11:09:30 (26.3 MB/s) - ‘shadowsocks-go.sh’ saved [12977/12977]
+
+root@debian:~# chmod +x shadowsocks-go.sh
+root@debian:~# ./shadowsocks-go.sh 2>&1 | tee shadowsocks-go.log
+```
+
+- 获取并运行shadowsocks-go (go语言)
+```
+root@debian:~# wget --no-check-certificate -O shadowsocks-go.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-go.sh
+--2018-12-13 11:09:30--  https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-go.sh
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.196.133
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.196.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 12977 (13K) [text/plain]
+Saving to: ‘shadowsocks-go.sh’
+
+shadowsocks-go.sh         100%[====================================>]  12.67K  --.-KB/s   in 0s     
+
+2018-12-13 11:09:30 (26.3 MB/s) - ‘shadowsocks-go.sh’ saved [12977/12977]
+
+root@debian:~# chmod +x shadowsocks-go.sh
+root@debian:~# ./shadowsocks-go.sh 2>&1 | tee shadowsocks-go.log
+```
