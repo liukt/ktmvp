@@ -114,3 +114,5 @@ shadowsocks-go.sh         100%[====================================>]  12.67K  -
 root@debian:~# chmod +x shadowsocks-go.sh
 root@debian:~# ./shadowsocks-go.sh 2>&1 | tee shadowsocks-go.log
 ```
+
+- Shadowsocks Windows 使用说明 https://github.com/shadowsocks/shadowsocks-windows/wiki/Shadowsocks-Windows-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E
