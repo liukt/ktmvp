@@ -11,7 +11,13 @@ lnmp vhost add
 ```
 - 域名解析
 > 例如：阿里云购买了域名（ktmvp.com）. 在阿里云控制台，域名栏中，解析设置:解析服务器的IP地址
-- 下载[wordpress](https://cn.wordpress.org/)包并且将wordpress/* 的文件解压到``/home/wwwroot/www.ktmvp.com/``下
+- 下载[wordpress](https://cn.wordpress.org/),点击获取wordpress
+![点击获取wordpress](获取链接地址20181218132148.png)
+```
+root@debian:~# wget -c https://cn.wordpress.org/wordpress-5.0.1-zh_CN.zip
+
+```
+- 并且将wordpress/* 的文件解压到``/home/wwwroot/www.ktmvp.com/``下
 ```
 root@debian:~# ls /home/wwwroot/www.ktmvp.com/
 index.php		   wp-admin		 wp-cron.php	    wp-settings.php
